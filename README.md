@@ -134,7 +134,7 @@ mvn exec:java -Dexec.mainClass=com.example.weatherAPI.WeatherApiApplication
 			"id": 16,
 			"active": true
 		}
-	}, \\other records]
+	}, ...]
 ```
 ## 5. Получение актуальной информации от всех сенсоров
 
