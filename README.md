@@ -27,9 +27,9 @@ mvn exec:java -Dexec.mainClass=org.example.Main
 ## Сервер
 
 Перед запуском сервера необходимо настроить базу данных PostreSQL. Для этого в папке weatherAPI\scr\main\resources отредактируйте файл application.properties следующие поля:
-	* spring.datasource.url= {url БД}
-	* spring.datasource.username={владелец бд} имя владельца БД (по умолчанию postgres)
-	* spring.datasource.password={пароль} Пароль
+* spring.datasource.url= {url БД}
+* spring.datasource.username={владелец бд} имя владельца БД (по умолчанию postgres)
+* spring.datasource.password={пароль} Пароль
 
 
 
