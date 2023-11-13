@@ -134,7 +134,7 @@ mvn exec:java -Dexec.mainClass=com.example.weatherAPI.WeatherApiApplication
 			"id": 16,
 			"active": true
 		}
-	}, ...]
+	}, {}]
 ```
 ## 5. Получение актуальной информации от всех сенсоров
 
@@ -146,15 +146,18 @@ mvn exec:java -Dexec.mainClass=com.example.weatherAPI.WeatherApiApplication
 
 ### Ответ
 ```json
-[
-  {
-    "name": "Sensor name",
-    "value": 24.5,
-    "raining": false,
-    "timestamp": "2023-11-13T12:30:45Z"
-  },
-  // ... другие измерения от всех активных сенсоров
-]
+[{
+		"id": 49,
+		"value": 34.5,
+		"raining": false,
+		"time": 1699881311526,
+		"sensor": {
+			"name": "Name",
+			"key": "54939ceb-b53d-418d-a1ee-f4d9af7e193d",
+			"id": 16,
+			"active": true
+		}
+	}, {}]
 ```
 ## 6. Обработка ошибок
 
